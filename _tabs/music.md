@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fa-solid fa-music
+icon: fa fa-music
 order: 5
 ---
 
