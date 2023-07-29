@@ -112,6 +112,10 @@ $date = Get-Date -Format "yyyy-MM-dd"
 
 $file = "_posts/$date-$slug.md"
 
+$imgPath = "img/$date-$slug"
+
+New-Item -ItemType Directory -Force -Path $imgPath
+
 $date = Get-Date -Format "yyyy-MM-dd HH:mm:ss K"
 
 @"
@@ -151,6 +155,10 @@ SLUG="$(echo -n "$TITLE" | sed -e 's/ /_/g' | tr [:upper:] [:lower:])"
 DATE=$(date +"%Y-%m-%d")
 
 FILE="_posts/$DATE-$SLUG.md"
+
+imgPath="img/$date-$slug"
+
+mkdir -p "$imgPath"
 
 DATE=$(date +"%Y-%m-%d %H:%M:%S %z")
 
