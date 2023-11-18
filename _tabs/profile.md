@@ -8,7 +8,7 @@ order: 4
 
 津村 颯人(つむら はやと)のウェブページへようこそ!
 
-## Education
+## Biography
 
 - 2015.4-2018.3 兵庫県立尼崎稲園高等学校
 - 2019.4-2023.3 京都大学 医学部 人間健康科学科
@@ -21,7 +21,12 @@ order: 4
 
 - Machine Learning
 - Deep Learning
-- Data Science
 - Chemoinformatics
 - Bioinformatics
 - Drug Discovery
+- Neurosciences
+- Connectomics
+
+## Recent works
+
+[[1] Ryota Nakajima, Arata Shirakami, Hayato Tsumura, Kouki Matsuda, Eita Nakamura, and Masanori Shimono. (2023). Mutual generation in neuronal activity across the brain via deep neural approach, and its network interpretation. _Commun. Biol_.](https://doi.org/10.1038/s42003-023-05453-2)
