@@ -30,3 +30,5 @@ order: 4
 ## Recent works
 
 [[1] Ryota Nakajima, Arata Shirakami, Hayato Tsumura, Kouki Matsuda, Eita Nakamura, and Masanori Shimono. (2023). Mutual generation in neuronal activity across the brain via deep neural approach, and its network interpretation. _Commun. Biol_.](https://doi.org/10.1038/s42003-023-05453-2)
+
+[[2] Takuto Koyama, Hayato Tsumura, Shigeyuki Matsumoto, Ryunosuke Okita, Ryosuke Kojima, Yasushi Okuno. (2024). ChemGLaM: Chemical-Genomics Language Models for Compound-Protein Interaction Prediction. _bioRxiv_.](https://doi.org/10.1101/2024.02.13.580100)
