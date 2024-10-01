@@ -94,6 +94,12 @@ git push origin master
 bundle exec jekyll serve
 ```
 
+予稿を`_drafts`に入れて、以下のコマンドを叩けば予稿を見ることも出来ます。
+
+```bash
+bundle exec jekyll serve --drafts
+```
+
 これで環境構築は完了です.
 
 ## Front Matter
