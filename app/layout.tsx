@@ -81,7 +81,8 @@ export default function RootLayout({
           </main>
           <footer className="footer footer-horizontal footer-center p-10">
             <aside>
-              <p>Copyright © {new Date().getFullYear()} - All right reserved by Hayato Tsumura</p>
+              <p>Copyright © {new Date().getFullYear()}</p>
+              <p>All right reserved by Hayato Tsumura</p>
             </aside>
           </footer>
         </div>

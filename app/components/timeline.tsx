@@ -2,14 +2,14 @@ export default function Timeline() {
     const timelineEvents = [
         {
             date: "November 4 1999",
-            title: "Born",
-            content: "🇯🇵",
+            title: "Born in 🇯🇵",
+            content: "At Hyogo Prefecture",
             position: "start"
         },
         {
             date: "April 1 2019 - March 31 2025",
-            title: "Kyoto University",
-            content: "⛩️",
+            title: "Kyoto University ⛩️",
+            content: "M.S. in Medicine. I majored in health sciences and studied bioinformatics and cheminformatics, with a focus on data-driven approaches to biomedical problems.",
             position: "end"
         },
         {
@@ -45,7 +45,7 @@ export default function Timeline() {
                     </div>
                     <div className={`timeline-${event.position} ${event.position === 'start' ? 'mb-10 md:text-end md:mr-8 ml-8' : 'md:mb-10 md:ml-8 ml-8'}`}>
                         <time className="font-mono italic">{event.date}</time>
-                        <div className="text-lg font-black">{event.title}</div>
+                        <div className="text-lg font-extrabold">{event.title}</div>
                         <p>{event.content}</p>
                     </div>
                     {index < timelineEvents.length - 1 && <hr />}

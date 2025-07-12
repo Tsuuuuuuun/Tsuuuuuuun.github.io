@@ -1,0 +1,35 @@
+{
+  "skills": [
+    {
+      "category": "Langs",
+      "items": [
+        "CSS",
+        "HTML",
+        "Java",
+        "Python",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Anaconda",
+        "AWS",
+        "Bash",
+        "Docker",
+        "Django",
+        "Git",
+        "GitHub",
+        "Flask",
+        "Linux",
+        "Netlify",
+        "Next.js",
+        "Obsidian",
+        "PyTorch",
+        "scikit-learn",
+        "Tailwind CSS",
+        "VSCode"
+      ]
+    }
+  ]
+}

@@ -13,6 +13,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-weight-extrabold: 800;
+  --font-weight-black:900;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,3 +23,8 @@
     --foreground: #ededed;
   }
 }
+
+kbd {
+  @apply inline-block px-2 py-1 text-xs font-mono border border-gray-300 rounded shadow-sm font-light;
+}
+
