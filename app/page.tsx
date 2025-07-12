@@ -11,7 +11,7 @@ export default function Home() {
               Hayato Tsumura
             </h1>
             <p className="py-6 text-base sm:text-lg max-w-xl mx-auto">
-              Engineer.
+              Engineer. <br/>(This site is WIP)
             </p>
           </div>
         </div>

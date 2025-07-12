@@ -60,6 +60,11 @@ export default function RootLayout({
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl focus:outline-none hover:bg-base-200 transition-colors" href="/">Hayato Tsumura</Link>
             </div>
+            <div className="flex-none">
+              <ul className="menu menu-horizontal px-1">
+                <li><a href="https://github.com/Tsuuuuuuun" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              </ul>
+            </div>
             <label className="swap swap-rotate">
               {/* this hidden checkbox controls the state */}
               <input type="checkbox" className="theme-controller" value="dark" />
