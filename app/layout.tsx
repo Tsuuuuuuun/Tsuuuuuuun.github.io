@@ -1,5 +1,6 @@
 import "./globals.css";
 
+import { SiGithub } from "@icons-pack/react-simple-icons";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
@@ -62,7 +63,7 @@ export default function RootLayout({
             </div>
             <div className="flex-none">
               <ul className="menu menu-horizontal px-1">
-                <li><a href="https://github.com/Tsuuuuuuun" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://github.com/Tsuuuuuuun" target="_blank" rel="noopener noreferrer"><SiGithub/></a></li>
               </ul>
             </div>
             <label className="swap swap-rotate">

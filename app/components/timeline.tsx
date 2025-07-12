@@ -1,19 +1,19 @@
 export default function Timeline() {
     const timelineEvents = [
         {
-            date: "1999(Nov,04)",
+            date: "November 4 1999",
             title: "Born",
             content: "🇯🇵",
             position: "start"
         },
         {
-            date: "2019",
+            date: "April 1 2019 - March 31 2025",
             title: "Kyoto University",
             content: "⛩️",
             position: "end"
         },
         {
-            date: "2025",
+            date: "April 1 2025-",
             title: "🏢",
             content: "As AI Work Transformation Engineer.",
             position: "start"
@@ -43,7 +43,7 @@ export default function Timeline() {
                     <div className="timeline-middle">
                         <CheckIcon />
                     </div>
-                    <div className={`timeline-${event.position} ${event.position === 'start' ? 'mb-10 md:text-end' : 'md:mb-10'}`}>
+                    <div className={`timeline-${event.position} ${event.position === 'start' ? 'mb-10 md:text-end md:mr-8 ml-8' : 'md:mb-10 md:ml-8 ml-8'}`}>
                         <time className="font-mono italic">{event.date}</time>
                         <div className="text-lg font-black">{event.title}</div>
                         <p>{event.content}</p>
